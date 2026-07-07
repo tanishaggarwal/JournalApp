@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: journal
+  data:
+    mongodb:
+      uri: mongodb+srv://programmer:GncGLNJAxzdXm568@userjournal.jewesfh.mongodb.net/?appName=UserJournal
+      database: journal
+      auto-index-creation: true
+server:
+  port: 8001
